@@ -3,8 +3,8 @@
   "theme": "maple",
   "name": "Skrut AI",
   "logo": {
-    "dark": "/logo/skrut-dark.svg",
-    "light": "/logo/skrut-light.svg",
+    "dark": "https://skrut.ai/logo-horizontal-dark-brand.png",
+    "light": "https://skrut.ai/logo-horizontal-light.png",
     "href": "https://skrut.ai"
   },
   "favicon": "/favicon.ico",
