@@ -1,5 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
   "name": "Skrut AI",
   "logo": {
     "dark": "/logo/skrut-dark.svg",
