@@ -32,22 +32,29 @@
       "url": "https://skrut.ai/changelog"
     }
   ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["quickstart"]
-    },
-    {
-      "group": "Concepts",
-      "pages": [
-        "concepts/agents",
-        "concepts/tests",
-        "concepts/reports",
-        "concepts/certification",
-        "concepts/red-team"
-      ]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["quickstart"]
+          },
+          {
+            "group": "Concepts",
+            "pages": [
+              "concepts/agents",
+              "concepts/tests",
+              "concepts/reports",
+              "concepts/certification",
+              "concepts/red-team"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "footerSocials": {
     "x": "https://x.com/skrut_ai",
     "linkedin": "https://www.linkedin.com/company/skrut-ai/",
