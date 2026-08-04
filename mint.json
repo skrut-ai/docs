@@ -1,0 +1,55 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Skrut AI",
+  "logo": {
+    "dark": "/logo/skrut-dark.svg",
+    "light": "/logo/skrut-light.svg",
+    "href": "https://skrut.ai"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#c41c1c",
+    "light": "#e5443b",
+    "dark": "#c41c1c"
+  },
+  "topbarLinks": [
+    { "name": "skrut.ai", "url": "https://skrut.ai" }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Early Access",
+    "url": "https://skrut.ai/#early-access"
+  },
+  "anchors": [
+    {
+      "name": "Academy",
+      "icon": "graduation-cap",
+      "url": "https://academy.skrut.ai"
+    },
+    {
+      "name": "Changelog",
+      "icon": "list",
+      "url": "https://skrut.ai/changelog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["quickstart"]
+    },
+    {
+      "group": "Concepts",
+      "pages": [
+        "concepts/agents",
+        "concepts/tests",
+        "concepts/reports",
+        "concepts/certification",
+        "concepts/red-team"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/skrut_ai",
+    "linkedin": "https://www.linkedin.com/company/skrut-ai/",
+    "youtube": "https://www.youtube.com/@Skrut-AI"
+  }
+}

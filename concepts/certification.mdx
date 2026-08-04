@@ -1,0 +1,18 @@
+---
+title: "Certification"
+description: "Freeze a passing suite and re-run it every release as proof."
+---
+
+**Certification** lets you lock a passing test suite and use it as a repeatable quality gate — proof that your agent meets a defined standard at every release.
+
+## How it works
+
+1. Run your test suite and reach a passing Readiness Score.
+2. **Freeze** the suite — Skrut snapshots the scenarios and the passing threshold.
+3. On every subsequent release, re-run the frozen suite. If the score drops below the threshold, the certification fails.
+
+## Use cases
+
+- Gate deploys on a minimum readiness score in your CI/CD pipeline.
+- Share a certification badge with enterprise customers as evidence of quality.
+- Track regression over time as your agent evolves.

@@ -1,0 +1,23 @@
+---
+title: "Agents"
+description: "The voice or chat agent you're testing, and how you connect it."
+---
+
+An **agent** in Skrut is the AI system under test — the thing Skrut will have conversations with and grade.
+
+## Voice agents
+
+Connect via **LiveKit**. Skrut joins the room as a caller, speaks test utterances, listens to your agent's responses, and grades each turn for accuracy, latency, and policy compliance.
+
+## Chat / RAG agents
+
+Connect via your **HTTP endpoint**. Skrut sends messages as JSON, reads the reply, and continues the conversation across multiple turns. Works with any framework — LangChain, LlamaIndex, custom — as long as you expose a `/chat` or equivalent endpoint.
+
+## Connection settings
+
+| Field | Description |
+|---|---|
+| Name | A label for this agent in your dashboard |
+| Type | `voice` or `chat` |
+| Endpoint | LiveKit room URL (voice) or HTTPS endpoint (chat) |
+| Auth | Optional bearer token passed in `Authorization` header |

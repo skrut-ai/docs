@@ -1,0 +1,19 @@
+---
+title: "Reports"
+description: "The readiness score, per-turn grades, and failures from a run."
+---
+
+A **report** is the output of a test run — a shareable document that shows how ready your agent is to ship.
+
+## What's in a report
+
+| Section | Description |
+|---|---|
+| Readiness Score | An overall 0–100 score for the run |
+| Per-turn grades | Accuracy, refusal, and consistency for every conversation turn |
+| Failures | Turns that fell below the passing threshold, with the exact exchange |
+| Red-team results | Whether your agent resisted adversarial attacks |
+
+## Sharing
+
+Every report has a public link you can share with stakeholders, paste into a PR, or attach to a release. Reports are versioned — re-running produces a new report you can diff against the previous one.

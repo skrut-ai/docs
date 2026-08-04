@@ -1,0 +1,23 @@
+---
+title: "Tests"
+description: "The scenarios Skrut runs against your agent."
+---
+
+A **test** is a multi-turn conversation scenario that Skrut executes against your agent to evaluate a specific behaviour.
+
+## How scenarios are generated
+
+Skrut generates test scenarios from two sources:
+
+1. **Your agent's knowledge base** — grounded scenarios that probe for hallucinations and broken refusals.
+2. **Red-team templates** — adversarial patterns (prompt injection, jailbreaks, PII leaks) applied to your agent's context.
+
+## Grading
+
+Every turn in a conversation is graded on a 0–100 scale across:
+
+- **Accuracy** — did the agent answer correctly?
+- **Refusal** — did it correctly refuse out-of-scope or harmful requests?
+- **Consistency** — does it contradict itself across turns?
+
+The per-turn grades roll up into a **Readiness Score** for the full run.
